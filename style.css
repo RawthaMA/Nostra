@@ -1,0 +1,710 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+}
+
+.material-symbols-outlined {
+
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+.message {
+  background-color: #1e232d;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  font-size: 12px;
+  text-align: center;
+  margin: auto;
+}
+
+#close {
+  background-color: #1e232d;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-weight: bolder;
+
+}
+
+.navbar {
+  display: flex;
+  background-color: white;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.side-nav {
+  background-color: #1e232d;
+  padding: 10px;
+  width: 60%;
+  height: 100%;
+  color: white;
+  position: absolute;
+  left: -80%;
+  z-index: 30;
+}
+
+.side-item {
+  list-style: none;
+  padding: 15px;
+  padding-top: 20px;
+}
+
+.side-close {
+  background-color: #1e232d;
+  border: none;
+  font-size: large;
+  color: white;
+  position: absolute;
+  right: 15px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.menuIcon {
+  background-color: white;
+  position: absolute;
+  border: none;
+  right: 20px;
+}
+
+.items {
+  display: none;
+}
+
+/* carousel carousel carousel carousel carousel carousel carousel carousel carousel carousel carousel carousel carousel carousel carousel  */
+
+
+.carousel {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  height: 500px;
+}
+
+.banner-img {
+  position: absolute;
+}
+
+.banner {
+  display: flex;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.carousel-btn {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 20;
+  top: 38%;
+}
+
+#car-btn,
+#car-btn2 {
+  padding: 2%;
+  font-size: 12px;
+  border: none;
+  color: white;
+  background-color: transparent;
+}
+
+#car-btn {
+  visibility: hidden;
+}
+
+.img1 {
+  width: 100%;
+  height: 100%;
+}
+
+.img2,
+.img3 {
+  display: none;
+  width: 100%;
+  height: 67.5vh;
+}
+
+.overlay2 {
+  position: absolute;
+  z-index: 11;
+  top: 10%;
+  left: 15%;
+  right: 15%;
+
+}
+
+.overlay2 h6 {
+  color: white;
+  font-size: 63px;
+  font-weight: 500;
+}
+
+.overlay2 h2 {
+  color: white;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.field {
+  width: 30%;
+  right: 50px;
+  display: inline-block;
+
+}
+
+.head {
+  font-size: 93px;
+  color: white;
+  padding-left: 50px;
+  margin-top: -25px;
+}
+
+.overlay2 legend {
+  padding: 15px;
+}
+
+.new {
+  background-color: #b27608;
+  width: 74.2%;
+  padding: 10px;
+  padding-left: 73px;
+  color: white;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.offer {
+  color: white;
+  font-size: 30px;
+  font-weight: 100;
+  padding: 15px;
+  padding-left: 60px;
+}
+
+.shop-btn {
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid #b27608;
+  background-color: transparent;
+  border-radius: 4px;
+  color: white;
+  padding: 20px;
+  margin-left: 25%;
+
+}
+
+.shoper {
+  display: inline-block;
+  margin-left: 10%;
+
+}
+
+.header {
+
+  font-family: "Playwrite CU", cursive;
+  font-weight: 100;
+  font-size: 55px;
+  color: white;
+
+}
+
+.arrival {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+
+.images {
+  width: 20vw;
+  padding-top: 10%;
+  position: relative;
+
+}
+
+.container {
+  margin-top: 2%;
+
+}
+
+.arrival-head {
+  font-size: 25px;
+  border-top: 1px #dbdbdb solid;
+  border-bottom: 1px #dbdbdb solid;
+  font-family: Playwrite CU, cursive;
+  display: flex;
+  justify-content: center;
+  font-weight: 200;
+  color: white;
+  background-color:#edd653;
+  opacity: 0.7;
+}
+.overlay3{
+  position: absolute;
+  background-color: black;
+  top:0;
+  opacity: 0.5;
+
+
+
+}
+/* key frameskey frameskey frameskey frameskey frameskey frameskey frameskey frameskey frameskey frameskey frameskey frameskey frameskey frames */
+
+.animate {
+  animation: mymove 2s forwards;
+}
+
+@keyframes mymove {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.animate1 {
+  animation: mymove1 2s forwards;
+  display: flex;
+}
+
+@keyframes mymove1 {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.animate2 {
+  animation: mymove2 2s forwards;
+  display: flex;
+}
+
+@keyframes mymove2 {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.animate3 {
+  animation: mymove3 2s forwards;
+  display: flex;
+}
+
+@keyframes mymove3 {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+/* media query media query media query media query media query media query media query media query media query media query media query  */
+@media screen and (min-width:250px) {
+
+  .img1,
+  .img2,
+  .img3 {
+    width: 100%;
+    height: 24.5vh;
+  }
+
+  .overlay {
+    height: 24.5vh;
+  }
+
+  .carousel,
+  .banner {
+    height: 24.5vh;
+
+  }
+
+  .field {
+    display: none;
+  }
+
+  .overlay2 h6 {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .header {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .shop-btn {
+    padding: 2px;
+    font-size: 13px;
+    margin-left: 0%;
+  }
+
+  .shoper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0%;
+  }
+  
+.arrival-head {
+  font-size: 10px;
+}
+}
+@media screen and (min-width:600px) {
+  .text {
+    font-size: 16px;
+  }
+
+  .side-item {
+    padding: 25px;
+  }
+
+  .img1,
+  .img2,
+  .img3 {
+    width: 100%;
+    height: 38.5vh;
+  }
+
+  .overlay {
+    height: 38.5vh;
+  }
+
+  .carousel,
+  .banner {
+    height: 38.5vh;
+
+  }
+
+  .field {
+    display: none;
+  }
+
+  .overlay2 h6 {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 6px;
+  }
+
+  .header {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .shop-btn {
+    padding: 10px;
+    font-size: 13px;
+    margin-left: 0%;
+  }
+
+  .shoper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0%;
+  }
+
+  .arrival-head {
+    font-size: 15px;
+}
+
+}
+
+@media screen and (min-width:1000px) {
+  .text {
+    font-size: 18px;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+
+  .side-nav {
+    display: none;
+  }
+
+  .brand-name {
+    margin-left: 20px;
+    font-size: 25px;
+  }
+
+  .menuIcon {
+    display: none;
+  }
+
+  .items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    color: #6b6b6b;
+  }
+
+  .item {
+    height: 25px;
+    padding: 18px;
+  }
+
+  .item:hover {
+    height: 25px;
+    padding: 18px;
+    transition: 1s;
+    background-color: beige;
+
+  }
+
+  #car-btn,
+  #car-btn2 {
+    font-size: 25px;
+  }
+
+  .img1,
+  .img2,
+  .img3 {
+    width: 100%;
+    height: 54.5vh;
+  }
+
+  .overlay {
+    height: 54.5vh;
+  }
+
+  .carousel,
+  .banner {
+    height: 54.5vh;
+
+  }
+
+  .field {
+    display: none;
+  }
+
+  .overlay2 h6 {
+    font-size: 55px;
+    text-align: center;
+    padding-top: 6px;
+  }
+
+  .header {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .shop-btn {
+    padding: 15x;
+    font-size: 18px;
+    margin-left: 0%;
+  }
+
+  .shoper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0%;
+  }
+
+  .arrival-head {
+    font-size: 20px;
+}
+
+}
+
+
+
+@media screen and (min-width:1300px) {
+
+  .img1,
+  .img2,
+  .img3 {
+    width: 100%;
+    height: 60.5vh;
+  }
+
+  .overlay {
+    height: 60.5vh;
+  }
+
+  .carousel,
+  .banner {
+    height: 60.5vh;
+
+  }
+
+  .overlay2 h6 {
+    font-size: 65px;
+  }
+}
+
+@media screen and (min-width:1400px) {
+  .field {
+    display: none;
+  }
+}
+
+@media screen and (min-width:1500px) {
+
+  .img1,
+  .img2,
+  .img3 {
+    width: 100%;
+    height: 64.5vh;
+  }
+
+  .overlay {
+    height: 64.5vh;
+  }
+
+  .overlay2 h6 {
+    font-size: 63px;
+
+  }
+
+  .carousel,
+  .banner {
+    height: 64.5vh;
+
+  }
+
+  .overlay2 {
+    position: absolute;
+    z-index: 11;
+    top: 10%;
+    left: 15%;
+    right: 15%;
+
+  }
+
+  .overlay2 h6 {
+    color: white;
+    font-size: 63px;
+    font-weight: 500;
+    text-align: left;
+
+  }
+
+  .overlay2 h2 {
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+
+  }
+
+  .field {
+    width: 30%;
+    right: 50px;
+    display: inline-block;
+
+  }
+
+  .head {
+    font-size: 93px;
+    color: white;
+    padding-left: 50px;
+    margin-top: -25px;
+  }
+
+  .overlay2 legend {
+    padding: 15px;
+  }
+
+  .new {
+    background-color: #b27608;
+    width: 74.2%;
+    padding: 10px;
+    padding-left: 73px;
+    color: white;
+    font-weight: 200;
+    font-size: 20px;
+  }
+
+  .offer {
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    padding: 15px;
+    padding-left: 60px;
+  }
+
+  .shop-btn {
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid #b27608;
+    background-color: transparent;
+    border-radius: 4px;
+    color: white;
+    padding: 20px;
+    margin-left: 25%;
+
+  }
+
+  .shoper {
+    display: inline-block;
+    margin-left: 10%;
+
+  }
+
+  .header {
+
+    font-family: "Playwrite CU", cursive;
+    font-weight: 100;
+    font-size: 55px;
+    color: white;
+
+  }
+  .arrival-head {
+    font-size: 25px;
+}
+
+};
