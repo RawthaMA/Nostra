@@ -22,8 +22,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+CU:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 
     <style>
+
+
     </style>
 
 </head>
@@ -43,12 +46,12 @@
             <i class="fa-solid fa-bars"></i>
         </button>
         <div class="menu-items">
-            <ul class="items">
-                <li class="item">Home</li>
-                <li class="item">New Arrival</li>
-                <li class="item">Most Wanted</li>
-                <li class="item">Collections</li>
-                <li class="item">Contact Us</li>
+            <ul style="color: black;" class="items">
+                <li><a class="item" style="text-decoration: none;" href="index.html">Home</a></li>
+                <li><a class="item" style="text-decoration: none;" href="collections.html">New Arrival</a></li>
+                <li><a class="item" style="text-decoration: none;" href="collections.html">Most Wanted</a></li>
+                <li><a class="item" style="text-decoration: none;" href="collections.html">Collections</a></li>
+                <li><a class="item" style="text-decoration: none;" href="contact.html">Contact Us</a></li>
             </ul>
         </div>
     </nav>
@@ -70,75 +73,347 @@
         <div class="side-container">
             <div>
                 <button id="women">
-                    <h1>Womens</h1>
+                    <h2>Womens</h2>
                 </button>
-                <div class="womens-items">
-                    <h3>Jeans</h3>
-                    <h3>T-shirts</h3>
-                    <h3>Skirts</h3>
-                    <h3>Denim</h3>
-                </div>
+                <!-- <div class="womens-items">
+                    <h3><input type="checkbox">Jeans</h3>
+                    <h3><input type="checkbox">T-shirts</h3>
+                    <h3><input type="checkbox">Skirts</h3>
+                    <h3><input type="checkbox">Denim</h3>
+                </div> -->
 
 
             </div>
             <div>
                 <button id="men">
-                    <h1>Mens</h1>
+                    <h2>Mens</h2>
                 </button>
-                <div class="mens-items">
-                    <h3>Jeans</h3>
-                    <h3>T-shirts</h3>
-                    <h3>Shorts</h3>
-                    <h3>Denim</h3>
-                </div>
+                <!-- <div class="mens-items">
+                    <h3><input type="checkbox">Jeans</h3>
+                    <h3><input type="checkbox">T-shirts</h3>
+                    <h3><input type="checkbox">Denim</h3>
+                </div> -->
             </div>
             <div>
                 <button id="kids">
-                    <h1>Kids Wear</h1>
+                    <h2>Kids Wear</h2>
                 </button>
-                <div class="kids-items">
-                    <h3>Jeans</h3>
-                    <h3>T-shirts</h3>
-                    <h3>Shorts</h3>
-                    <h3>Denim</h3>
-                </div>
+                <!-- <div class="kids-items">
+                    <h3><input type="checkbox">Sweater</h3>
+                    <h3><input type="checkbox">T-shirts</h3>
+                    <h3><input type="checkbox">Gown</h3>
+                    <h3><input type="checkbox">Denim</h3>
+                </div> -->
+            </div>
+            <div>
+                <button id="all">
+                    <h2>All items</h2>
+                </button>
+                
             </div>
         </div>
 
 
         <div class="main-container">
-            
+
             <div class="container">
-                <input type="text">
+                <div style="display: flex;justify-content: center;align-items: center;width: 100%;">
+                    <h1
+                        style="  font-family: Playwrite CU, cursive;font-weight: 200;font-size: 2.5vw;color: goldenrod;">
+                        Nostra , Where Comfort Meets Style</h1>
+                </div>
+                <div class="search-con">
+                    <input style="font-size: 14px;padding-left: 25px;" class="searcher"
+                        placeholder="Search for the type of cloth you prefer..." type="text">
+                </div>
 
-                <div class="arrival">
-                    <div class="img-frame">
-                        <img src="images/wshirt1.jpg" alt="" class="images1">
-                        <h4>Red Womens Shirt</h4>
-                        <!-- <button  class="overlay3">Shop Now</button> -->
-                    </div>
-                    <div class="img-frame">
-                        <img src="images/wshirt2.jpg" alt="" class="images1">
-                        <!-- <button class="overlay4">Shop Now</button> -->
-                        <h4>blue Womens Shirt</h4>
+                <div class="filterer">
+                    <button style="cursor: pointer;" id="filter1">
+                        <h2>Mens</h2>
+                    </button>
+
+                    <button style="cursor: pointer;" id="filter2">
+                        <h2>Womens</h2>
+                    </button>
+                    <button style="cursor: pointer;" id="filter3">
+                        <h2>Kids Wear</h2>
+                    </button>
+                    <button style="cursor: pointer;" id="filter4">
+                        <h2>All</h2>
+                    </button>
+
+                </div>
+
+                <div class="womens_dress">
+                    <div class="arrival1">
+                        <div class="img-frame">
+                            <img src="images/wdenim.webp" alt="" class="images1">
+                            <h4>Womens Denim Dark</h4>
+                            <!-- <button  class="overlay3">Shop Now</button> -->
+                        </div>
+                        <div class="img-frame">
+                            <img src="images/wdenim2c.jpg" alt="" class="images1">
+                            <!-- <button class="overlay4">Shop Now</button> -->
+                            <h4>Womens Denim White</h4>
+
+                        </div>
+                        <div class="img-frame">
+                            <img src="images/wdenim3.webp" alt="" class="images1">
+                            <!-- <button class="overlay5">Shop Now</button> -->
+                            <h4>Womens Denim Black</h4>
+
+                        </div>
+                        <div class="img-frame">
+                            <img src="images/wdenm4c.jpg" alt="" class="images1">
+                            <!-- <button class="overlay6">Shop Now</button> -->
+                            <h4>Womens Denim black</h4>
+
+                        </div>
 
                     </div>
-                    <div class="img-frame">
-                        <img src="images/wshirt4.jpg" alt="" class="images1">
-                        <!-- <button class="overlay5">Shop Now</button> -->
-                        <h4>black Womens Shirt</h4>
+
+                    <!-- arrivall -->
+                    <div class="arrival1">
+                        <div class="img-frame">
+                            <img src="images/wshirt1.jpg" alt="" class="images1">
+                            <h4>Red Womens Shirt</h4>
+                            <!-- <button  class="overlay3">Shop Now</button> -->
+                        </div>
+                        <div class="img-frame">
+                            <img src="images/wshirt2.jpg" alt="" class="images1">
+                            <!-- <button class="overlay4">Shop Now</button> -->
+                            <h4>Blue Womens Shirt</h4>
+
+                        </div>
+                        <div class="img-frame">
+                            <img src="images/wshirt4.jpg" alt="" class="images1">
+                            <!-- <button class="overlay5">Shop Now</button> -->
+                            <h4>black Womens Shirt</h4>
+
+                        </div>
+                        <div class="img-frame">
+                            <img src="images/wshirt8.jpg" alt="" class="images1">
+                            <!-- <button class="overlay6">Shop Now</button> -->
+                            <h4>Stripped Womens Shirt</h4>
+
+                        </div>
 
                     </div>
-                    <div class="img-frame">
-                        <img src="images/wshirt8.jpg" alt="" class="images1">
-                        <!-- <button class="overlay6">Shop Now</button> -->
-                        <h4>stripped Womens Shirt</h4>
+
+                    <!-- arrival 2 -->
+
+                    <div class="arrival1">
+                        <div class="img-frame">
+                            <img src="images/wskirt1.webp" alt="" class="images1">
+                            <h4>Womens Skirt jeans</h4>
+                            <!-- <button  class="overlay3">Shop Now</button> -->
+                        </div>
+                        <div class="img-frame">
+                            <img src="images/wskirt3.webp" alt="" class="images1">
+                            <!-- <button class="overlay4">Shop Now</button> -->
+                            <h4>Womens Skirt Beige</h4>
+
+                        </div>
+                        <div class="img-frame">
+                            <img src="images/wskirt4.webp" alt="" class="images1">
+                            <!-- <button class="overlay5">Shop Now</button> -->
+                            <h4>Womens Skirt lightblue</h4>
+
+                        </div>
+                        <div class="img-frame">
+                            <img src="images/wskirt5.webp" alt="" class="images1">
+                            <!-- <button class="overlay6">Shop Now</button> -->
+                            <h4>Womens Skirt stripped</h4>
+
+                        </div>
 
                     </div>
                 </div>
+
+                <div class="males_dress">
+                    <div class="arrival1">
+                        <div class="img-frame">
+                            <img src="images/dmbrown.jpg" alt="" class="images1">
+                            <h4>Mens Denim Brown</h4>
+                            <!-- <button  class="overlay3">Shop Now</button> -->
+                        </div>
+                        <div class="img-frame">
+                            <img src="images/dmdark.jpg" alt="" class="images1">
+                            <!-- <button class="overlay4">Shop Now</button> -->
+                            <h4>Mens Denim DarkBlue</h4>
+
+                        </div>
+                        <div class="img-frame">
+                            <img src="images/dmcool.jpg" alt="" class="images1">
+                            <!-- <button class="overlay5">Shop Now</button> -->
+                            <h4>Mens Denim gangster</h4>
+
+                        </div>
+                        <div class="img-frame">
+                            <img src="images/dmblack.jpg" alt="" class="images1">
+                            <!-- <button class="overlay6">Shop Now</button> -->
+                            <h4>Mens Denim Black</h4>
+
+                        </div>
+
+                    </div>
+
+                    <!-- arrival 2 -->
+
+                    <div class="arrival1">
+                        <div class="img-frame">
+                            <img src="images/mshirt.jpg" alt="" class="images1">
+                            <h4>Mens Shirt partywear</h4>
+                            <!-- <button  class="overlay3">Shop Now</button> -->
+                        </div>
+                        <div class="img-frame">
+                            <img src="images/mshirt1.jpg" alt="" class="images1">
+                            <!-- <button class="overlay4">Shop Now</button> -->
+                            <h4>Mens Shirt floral</h4>
+
+                        </div>
+                        <div class="img-frame">
+                            <img src="images/mshirt2.jpg" alt="" class="images1">
+                            <!-- <button class="overlay5">Shop Now</button> -->
+                            <h4>Mens Shirt floral</h4>
+
+                        </div>
+                        <div class="img-frame">
+                            <img src="images/mshirt5.jpg" alt="" class="images1">
+                            <!-- <button class="overlay6">Shop Now</button> -->
+                            <h4>Mens Shirt floral</h4>
+
+                        </div>
+
+                    </div>
+                    <!-- arrival 2 -->
+
+                    <div class="arrival1">
+                        <div class="img-frame">
+                            <img src="images/mensjeans.jpg" alt="" class="images1">
+                            <h4>Mens Jeans Pant blue</h4>
+                            <!-- <button  class="overlay3">Shop Now</button> -->
+                        </div>
+                        <div class="img-frame">
+                            <img src="images/mensjeans1.jpg" alt="" class="images1">
+                            <!-- <button class="overlay4">Shop Now</button> -->
+                            <h4>Mens Jeans Pant darkblue</h4>
+
+                        </div>
+                        <div class="img-frame">
+                            <img src="images/mensjeans2.jpg" alt="" class="images1">
+                            <!-- <button class="overlay5">Shop Now</button> -->
+                            <h4>Mens Jeans Pant Black</h4>
+
+                        </div>
+                        <div class="img-frame">
+                            <img src="images/mensjeans3.jpg" alt="" class="images1">
+                            <!-- <button class="overlay6">Shop Now</button> -->
+                            <h4>Mens Jeans Pant Grey</h4>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="kids_dress"> <!-- arrival 2 -->
+
+                    <div class="arrival1">
+                        <div class="img-frame">
+                            <img style="border:1px solid lightgrey;" src="images/kswaet3.webp" alt="" class="images1">
+                            <h4>Kids Sweater Boys</h4>
+                            <!-- <button  class="overlay3">Shop Now</button> -->
+                        </div>
+                        <div class="img-frame">
+                            <img style="border:1px solid lightgrey;" src="images/ksweat.webp" alt="" class="images1">
+                            <!-- <button class="overlay4">Shop Now</button> -->
+                            <h4>Kids Sweater Girls</h4>
+
+                        </div>
+                        <div class="img-frame">
+                            <img style="border:1px solid lightgrey;" src="images/ksweat1.webp" alt="" class="images1">
+                            <!-- <button class="overlay5">Shop Now</button> -->
+                            <h4>Kids Sweater Gitls</h4>
+
+                        </div>
+                        <div class="img-frame">
+                            <img style="border:1px solid lightgrey;" src="images/ksweate4.webp" alt="" class="images1">
+                            <!-- <button class="overlay6">Shop Now</button> -->
+                            <h4>Kids Sweater Boys</h4>
+
+                        </div>
+
+                    </div>
+
+                    <!-- arrival 2 -->
+
+                    <div class="arrival1">
+                        <div class="img-frame">
+                            <img src="images/ggirls.webp" alt="" class="images1">
+                            <h4>Kids Gown party wear</h4>
+                            <!-- <button  class="overlay3">Shop Now</button> -->
+                        </div>
+                        <div class="img-frame">
+                            <img src="images/ggirls1.webp" alt="" class="images1">
+                            <!-- <button class="overlay4">Shop Now</button> -->
+                            <h4>Kids Gown party wear</h4>
+
+                        </div>
+                        <div class="img-frame">
+                            <img src="images/ggirls3.webp" alt="" class="images1">
+                            <!-- <button class="overlay5">Shop Now</button> -->
+                            <h4>Kids Gown party wear</h4>
+
+                        </div>
+                        <div class="img-frame">
+                            <img src="images/ggirls4.webp" alt="" class="images1">
+                            <!-- <button class="overlay6">Shop Now</button> -->
+                            <h4>Kids Gown party wear</h4>
+
+                        </div>
+
+                    </div>
+                    <!-- arrival 2 -->
+
+                    <div class="arrival1">
+                        <div class="img-frame">
+                            <img src="images/tboys1.jpg" alt="" class="images1">
+                            <h4>Boys T-shirts </h4>
+                            <!-- <button  class="overlay3">Shop Now</button> -->
+                        </div>
+                        <div class="img-frame">
+                            <img src="images/tboys4.jpg" alt="" class="images1">
+                            <!-- <button class="overlay4">Shop Now</button> -->
+                            <h4>Boys T-shirts </h4>
+
+                        </div>
+                        <div class="img-frame">
+                            <img src="images/tboys3.jpg" alt="" class="images1">
+                            <!-- <button class="overlay5">Shop Now</button> -->
+                            <h4>Boys T-shirts</h4>
+
+                        </div>
+                        <div class="img-frame">
+                            <img src="images/tboys2.jpg" alt="" class="images1">
+                            <!-- <button class="overlay6">Shop Now</button> -->
+                            <h4>Boys T-shirts Shirt</h4>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+
             </div>
         </div>
-        
+
     </div>
 
 
